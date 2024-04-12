@@ -1,6 +1,8 @@
 import numpy as np
 import streamlit as st
 import pandas as pd
+import sklearn
+from sklearn import datasets
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
